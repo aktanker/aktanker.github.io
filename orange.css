@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.contact {
+	text-align: center;
+}
+
+#container_margin {
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+#con_margin {
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+.graph_boarder {
+	
+	border-style: solid;
+}
+
+.text_background {
+	
+	background-color: #FBEBE3;
+	padding: 10px;
+	
+}
+
+* {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.bold_heading {
+	
+	font-weight: bold;
+}
+
+
+#des_con1 {
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+#des_con2{
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+#about_con1 {
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+#about_con2 {
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+#home_con1 {
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+#home_con2 {
+	
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	
+}
+
+#contact_background {
+	
+	background-color: #FBEBE3;
+	padding: 10px;
+	
+}
+
+
+#contact_background2 {
+	
+	background-color: #FBEBE3;
+	padding: 10px;
+	
+}
+
+#contact_background3 {
+	
+	background-color: #FBEBE3;
+	padding: 10px;
+	
+}
+
+#contact_background4 {
+	
+	background-color: #FBEBE3;
+	padding: 10px;
+	
+}
+
+#vis_border {
+	
+	border-style: groove;
+	padding: 10px;
+	
+}
+
+
+
+.about {
+	
+	border-style: solid;
+	border-color: #232E4A;
+	padding: 10px;
+	
+}
+
+
+.info {
+	
+	background-color: #FBEBE3;
+	padding: 10px;
+	
+	
+}
+
+
+
+

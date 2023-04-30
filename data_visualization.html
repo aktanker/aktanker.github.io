@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Data Visualization</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="orange.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+	
+	<div class="container" id="con_margin">
+		<div class="row">
+			<div class="col-3">
+				<br/>
+				<h4 class="bold_heading">America and The Opioid Epidemic</h4>
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<hr/>
+				<hr/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-5">
+				<h1 class="bold_heading">The Opioid Epidemic In The US</h1>
+			</div>
+			<div class="col-1">
+				<a href="team_orange.html">Home</a> 
+			</div>
+			<div class="col-2">
+				<a href="data_visualization.html">Data Visualization</a>
+			</div>
+			<div class="col-2">
+				<a href="data_description.html">Data Description</a>
+			</div>
+			<div class="col-1">
+				<a href="about_us.html">About Us</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<hr/>
+				<hr/>
+				<br/>
+				<br/>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="container_margin">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="bold_heading">Opioid Overdose Deaths in the United States</h2>
+				<hr/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8">
+		    	<img src="Line_chart_all.svg" alt="" class="graph_boarder"/> 
+			</div>
+			<div class="col-4">
+				<table>
+					<tr>
+						<td>
+							<h4 class="text_background">Opioid <br/>
+								Information</h4>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Click on the text below <br/> to find out more details!</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="text_1" onClick="changeText">Commonly prescribed opioids</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="text_2" onClick="changeText_2">Heroin</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="text_3" onClick="changeText_3">Synthetic opioids</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+			  <h4 class="text_background">Opioid Makeup of <br/>Each Wave</h4>
+					<br/>
+					<br/>
+			  <input id="wave_one" type="button" onclick="changeImage_1()" value="Wave One" />
+				
+					<br/>
+					<br/>
+					<br/>
+			  <input id="wave_two" type="button" onclick="changeImage_2()" value="Wave Two" />
+				
+					<br/>
+					<br/>
+					<br/>
+				<input id="wave_three" type="button" onclick="changeImage_3()" value="Wave Three" />
+				
+			</div>
+			<div class="col-8">
+    	    <img src="all_waves_col.svg" id="all_wave" alt="" class="graph_boarder"/> </div>
+			
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<h5 id="vis_border">Get more information &rarr; <a href="../informatics/data_description.html">Data Description</a></h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<br/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="contact" id="contact_background">Contact Our Team at: <a href="mailto:aktanker@iu.edu" class="contact">aktanker@iu.edu</a></p>
+			</div>
+		</div>
+	</div>
+	<script src="../informatics/data_visualization.js"></script>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	
+</body>
+</html>
+
